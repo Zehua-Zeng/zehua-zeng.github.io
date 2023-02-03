@@ -18,7 +18,9 @@ sidebar-external:
   - icon: <i class="fa-brands fa-github-alt"></i>
     link: https://github.com/Zehua-Zeng
   - icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.bodunhu.com/blog/
+    link: https://www.linkedin.com/in/zehuazeng/
+  - icon: <i class="fa-brands fa-youtube"></i>
+  - link: https://www.youtube.com/channel/UCBwabuKjUQqMnyh-Nys-X2Q/videos
 
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 # When running locally, we run into the following error —
