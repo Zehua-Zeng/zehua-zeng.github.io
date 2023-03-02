@@ -41,7 +41,7 @@ C3. <a href="https://arxiv.org/abs/2109.01271">A Review and Collation of Graphic
 <i>(to appear in)</i> CHI, 2023
 
 D1. <a href="http://hdl.handle.net/1903/29678">A Multi-Faceted Approach for Evaluating Visualization Recommendation Algorithms</a> <br/>
-<strong>Zehua Zeng</strong>. <br/>
+<strong>Zehua Zeng</strong> <br/>
 Ph.D. Dissertation, 2022
 
 C2. <a href="https://ieeexplore.ieee.org/document/9552925">An Evaluation-Focused Framework for Visualization Recommendation Algorithms</a> <br/>
