@@ -23,6 +23,8 @@ Research and Development Engineer Intern, Baidu Inc. <br/>
 
 ### Lastest News
 
+Our paper is fully accepted at CHI 2023. <br/>
+<sub><sup>Mar 2023</sup></sub><br/>
 I started working at Intel. <br/>
 <sub><sup>Jan 2023</sup></sub><br/>
 I passed my Ph.D. thesis defense. <br/>
@@ -33,6 +35,10 @@ I passed my preliminary exam and now a Ph.D. candidate. <br/>
 <sub><sup>Aug 2021</sup></sub><br/>
 
 ### Publications
+
+C3. <a href="https://arxiv.org/abs/2109.01271">A Review and Collation of Graphical Perception Knowledge for Visualization Recommendation</a> <br/>
+<strong>Zehua Zeng</strong>, Leilani Battle <br/>
+<i>(to appear in)</i> CHI, 2023
 
 D1. <a href="http://hdl.handle.net/1903/29678">A Multi-Faceted Approach for Evaluating Visualization Recommendation Algorithms</a> <br/>
 <strong>Zehua Zeng</strong>. <br/>
