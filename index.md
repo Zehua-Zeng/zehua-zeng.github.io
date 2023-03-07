@@ -56,3 +56,4 @@ Graphics Interface (GI), 2017
 
 - Reviewer:
   - IEEE Transactions on Visualization and Computer Graphics (Journal)
+  - Computational Intelligence and Neuroscience (Journal)
