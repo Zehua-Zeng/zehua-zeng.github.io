@@ -36,9 +36,9 @@ I passed my preliminary exam and now a Ph.D. candidate. <br/>
 
 ### Publications
 
-C3. <a href="https://arxiv.org/abs/2109.01271">A Review and Collation of Graphical Perception Knowledge for Visualization Recommendation</a> <br/>
+C3. <a href="https://dl.acm.org/doi/10.1145/3544548.3581349">A Review and Collation of Graphical Perception Knowledge for Visualization Recommendation</a> <br/>
 <strong>Zehua Zeng</strong>, Leilani Battle <br/>
-<i>(to appear in)</i> CHI, 2023
+CHI, 2023
 
 D1. <a href="http://hdl.handle.net/1903/29678">A Multi-Faceted Approach for Evaluating Visualization Recommendation Algorithms</a> <br/>
 <strong>Zehua Zeng</strong> <br/>
@@ -57,3 +57,4 @@ Graphics Interface (GI), 2017
 - Reviewer:
   - IEEE Transactions on Visualization and Computer Graphics (Journal)
   - Computational Intelligence and Neuroscience (Journal)
+  - IEEE VIS (Conference)
