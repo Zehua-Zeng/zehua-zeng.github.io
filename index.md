@@ -23,6 +23,8 @@ Research and Development Engineer Intern, Baidu Inc. <br/>
 
 ### Lastest News
 
+Our article is published on ACM Interactions. <br/>
+<sub><sup>May 2023</sup></sub><br/>
 Our paper is fully accepted at CHI 2023. <br/>
 <sub><sup>Mar 2023</sup></sub><br/>
 I started working at Intel. <br/>
@@ -35,6 +37,10 @@ I passed my preliminary exam and now a Ph.D. candidate. <br/>
 <sub><sup>Aug 2021</sup></sub><br/>
 
 ### Publications
+
+J1. <a href="https://dl.acm.org/doi/10.1145/3588744">Using Graphical Perception in Visualization Recommendation</a> <br/>
+<strong>Zehua Zeng</strong>, Leilani Battle <br/>
+ACM Interactions, 2023
 
 C3. <a href="https://dl.acm.org/doi/10.1145/3544548.3581349">A Review and Collation of Graphical Perception Knowledge for Visualization Recommendation</a> <br/>
 <strong>Zehua Zeng</strong>, Leilani Battle <br/>
