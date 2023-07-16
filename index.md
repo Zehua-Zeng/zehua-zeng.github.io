@@ -23,6 +23,8 @@ Research and Development Engineer Intern, Baidu Inc. <br/>
 
 ### Lastest News
 
+Our papers (1 full, 1 short) are fully accepted at VIS 2023. <br/>
+<sub><sup>Jul 2023</sup></sub><br/>
 Our article is published on ACM Interactions. <br/>
 <sub><sup>May 2023</sup></sub><br/>
 Our paper is fully accepted at CHI 2023. <br/>
