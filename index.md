@@ -38,6 +38,14 @@ I passed my preliminary exam and now a Ph.D. candidate. <br/>
 
 ### Publications
 
+C5. Too Many Cooks: Exploring How Graphical Perception Studies Influence Visualization Recommendations in Draco <br/>
+<strong>Zehua Zeng</strong>, Junran Yang, Dominik Moritz, Jeffrey Heer, Leilani Battle <br/>
+<i>(to appear in)</i> IEEE VIS, 2023
+
+C4. Draco 2: An Extensible Platform to Model Visualization Design <br/>
+Junran Yang, Péter Ferenc Gyarmati, <strong>Zehua Zeng</strong>, Dominik Moritz <br/>
+<i>(to appear in)</i> IEEE VIS 2023 -- Short Papers
+
 J1. <a href="https://dl.acm.org/doi/10.1145/3588744">Using Graphical Perception in Visualization Recommendation</a> <br/>
 <strong>Zehua Zeng</strong>, Leilani Battle <br/>
 ACM Interactions, 2023
