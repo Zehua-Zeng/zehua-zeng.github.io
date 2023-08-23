@@ -23,6 +23,8 @@ Research and Development Engineer Intern, Baidu Inc. <br/>
 
 ### Lastest News
 
+We received the Best Paper Honorable Mention Award at IEEE VIS 2023. <br/>
+<sub><sup>Sep 2023</sup></sub><br/>
 Our papers (1 full, 1 short) are fully accepted at VIS 2023. <br/>
 <sub><sup>Jul 2023</sup></sub><br/>
 Our article is published on ACM Interactions. <br/>
@@ -46,7 +48,7 @@ C5. Too Many Cooks: Exploring How Graphical Perception Studies Influence Visuali
 
 C4. Draco 2: An Extensible Platform to Model Visualization Design <br/>
 Junran Yang, Péter Ferenc Gyarmati, <strong>Zehua Zeng</strong>, Dominik Moritz <br/>
-<i>(to appear in)</i> IEEE VIS 2023 -- Short Papers
+<i>(to appear in)</i> IEEE VIS 2023 -- Short Papers (Best Paper Honorable Mention)
 
 J1. <a href="https://dl.acm.org/doi/10.1145/3588744">Using Graphical Perception in Visualization Recommendation</a> <br/>
 <strong>Zehua Zeng</strong>, Leilani Battle <br/>
