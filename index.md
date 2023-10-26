@@ -48,7 +48,7 @@ IEEE VIS, 2023
 
 C4. Draco 2: An Extensible Platform to Model Visualization Design <br/>
 Junran Yang, Péter Ferenc Gyarmati, <strong>Zehua Zeng</strong>, Dominik Moritz <br/>
-IEEE VIS 2023 -- Short Papers (Best Paper Honorable Mention)
+IEEE VIS 2023 -- Short Papers <a href="files/Best Paper Honorable Mention_Vis_Rec_Evaluation.pdf" target="_blank">(Best Paper Honorable Mention)</a>
 
 J1. <a href="https://dl.acm.org/doi/10.1145/3588744">Using Graphical Perception in Visualization Recommendation</a> <br/>
 <strong>Zehua Zeng</strong>, Leilani Battle <br/>
@@ -64,7 +64,7 @@ Ph.D. Dissertation, 2022
 
 C2. <a href="https://ieeexplore.ieee.org/document/9552925">An Evaluation-Focused Framework for Visualization Recommendation Algorithms</a> <br/>
 <strong>Zehua Zeng</strong>, Phoebe Moh, Fan Du, Jane Hoffswell, Tak Yeon Lee, Sana Malik, Eunyee Koh, Leilani Battle <br/>
-IEEE VIS, 2021 (Best Paper Honorable Mention)
+IEEE VIS, 2021 <a href="files/Best Paper Honorable Mention_Draco2.pdf" target="_blank">(Best Paper Honorable Mention)</a>
 
 C1. <a href="https://graphicsinterface.org/proceedings/gi2017/gi2017-26/">Supporting Team-First Visual Analytics through Group Activity Representations</a> <br/>
 Sriram Karthik Badam, <strong>Zehua Zeng</strong>, Emily Wall, Alex Endert, Niklas Elmqvist <br/>
