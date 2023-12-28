@@ -46,7 +46,7 @@ C5. <a href="https://ieeexplore.ieee.org/document/10290999">Too Many Cooks: Expl
 <strong>Zehua Zeng</strong>, Junran Yang, Dominik Moritz, Jeffrey Heer, Leilani Battle <br/>
 IEEE VIS, 2023
 
-C4. Draco 2: An Extensible Platform to Model Visualization Design <br/>
+C4. <a href="https://ieeexplore.ieee.org/document/10360911">Draco 2: An Extensible Platform to Model Visualization Design</a> <br/>
 Junran Yang, Péter Ferenc Gyarmati, <strong>Zehua Zeng</strong>, Dominik Moritz <br/>
 IEEE VIS 2023 -- Short Papers <a href="files/Best Paper Honorable Mention_Draco2.pdf" target="_blank">(Best Paper Honorable Mention)</a>
 
