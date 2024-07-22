@@ -6,7 +6,7 @@ layout: left
 
 I am a Software Research Engineer at <a href="https://www.intel.com/">Intel</a>. I design and develop visualization tools for real-time yield analysis.
 
-I received my Ph.D. from the <a href="https://www.cs.umd.edu/">Department of Computer Science</a> at the <a href="https://www.umd.edu/">University of Maryland, College Park</a>, where I worked with <a href="https://homes.cs.washington.edu/~leibatt/bio.html">Leilani Battle</a> in the <a href="https://battle-data-lab.cs.umd.edu">BAttle-Data Lab</a> and <a href="https://idl.cs.washington.edu/">UW Interactive Data Lab</a>.
+I received my Ph.D. from the <a href="https://www.cs.umd.edu/">Department of Computer Science</a> at the <a href="https://www.umd.edu/">University of Maryland, College Park</a>, where I worked with <a href="https://homes.cs.washington.edu/~leibatt/bio.html">Prof. Leilani Battle</a> in the <a href="https://battle-data-lab.cs.umd.edu">BAttle-Data Lab</a> and <a href="https://idl.cs.washington.edu/">UW Interactive Data Lab</a>.
 
 I received my M.S. in Computer Science from the University of Maryland and my B.S. in Telecommunication Engineering from the Beijing University of Posts and Telecommunications.
 
@@ -23,19 +23,21 @@ Research and Development Engineer Intern, Baidu Inc. <br/>
 
 ### Lastest News
 
-We received the Best Paper Honorable Mention Award at IEEE VIS 2023. <br/>
+I received the 2024 VGTC Visualization Dissertation Award Honorable Mention.<br/>
+<sub><sup>Jul 2024</sup></sub><br/>
+We received the <a href="https://ieeevis.org/year/2023/info/awards/best-paper-awards">Best Paper Honorable Mention</a> at IEEE VIS 2023. <br/>
 <sub><sup>Sep 2023</sup></sub><br/>
-Our papers (1 full, 1 short) are fully accepted at VIS 2023. <br/>
+Our papers (1 full, 1 short) were fully accepted at VIS 2023. <br/>
 <sub><sup>Jul 2023</sup></sub><br/>
-Our article is published on ACM Interactions. <br/>
+Our article was published on ACM Interactions. <br/>
 <sub><sup>May 2023</sup></sub><br/>
-Our paper is fully accepted at CHI 2023. <br/>
+Our paper was fully accepted at CHI 2023. <br/>
 <sub><sup>Mar 2023</sup></sub><br/>
 I started working at Intel. <br/>
 <sub><sup>Jan 2023</sup></sub><br/>
 I passed my Ph.D. thesis defense. <br/>
 <sub><sup>Oct 2022</sup></sub><br/>
-We received the Best Paper Honorable Mention Award at IEEE VIS 2021. <br/>
+We received the <a href="https://ieeevis.org/year/2021/info/awards/best-paper-awards">Best Paper Honorable Mention</a> at IEEE VIS 2021. <br/>
 <sub><sup>Sep 2021</sup></sub><br/>
 I passed my preliminary exam and now a Ph.D. candidate. <br/>
 <sub><sup>Aug 2021</sup></sub><br/>
