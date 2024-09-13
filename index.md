@@ -23,26 +23,32 @@ Research and Development Engineer Intern, Baidu Inc. <br/>
 
 ### Lastest News
 
+Our paper was published in Foundations and Trends in Databases.<br/>
+<sub><sup>Sept. 2024</sup></sub><br/>
 I received the 2024 VGTC Visualization Dissertation Award Honorable Mention.<br/>
-<sub><sup>Jul 2024</sup></sub><br/>
+<sub><sup>July 2024</sup></sub><br/>
 We received the <a href="https://ieeevis.org/year/2023/info/awards/best-paper-awards">Best Paper Honorable Mention</a> at IEEE VIS 2023. <br/>
-<sub><sup>Sep 2023</sup></sub><br/>
+<sub><sup>Sept. 2023</sup></sub><br/>
 Our papers (1 full, 1 short) were fully accepted at VIS 2023. <br/>
-<sub><sup>Jul 2023</sup></sub><br/>
-Our article was published on ACM Interactions. <br/>
+<sub><sup>July 2023</sup></sub><br/>
+Our article was published in ACM Interactions. <br/>
 <sub><sup>May 2023</sup></sub><br/>
 Our paper was fully accepted at CHI 2023. <br/>
-<sub><sup>Mar 2023</sup></sub><br/>
+<sub><sup>Mar. 2023</sup></sub><br/>
 I started working at Intel. <br/>
-<sub><sup>Jan 2023</sup></sub><br/>
+<sub><sup>Jan. 2023</sup></sub><br/>
 I passed my Ph.D. thesis defense. <br/>
-<sub><sup>Oct 2022</sup></sub><br/>
+<sub><sup>Oct. 2022</sup></sub><br/>
 We received the <a href="https://ieeevis.org/year/2021/info/awards/best-paper-awards">Best Paper Honorable Mention</a> at IEEE VIS 2021. <br/>
-<sub><sup>Sep 2021</sup></sub><br/>
+<sub><sup>Sept. 2021</sup></sub><br/>
 I passed my preliminary exam and now a Ph.D. candidate. <br/>
-<sub><sup>Aug 2021</sup></sub><br/>
+<sub><sup>Aug. 2021</sup></sub><br/>
 
 ### Publications
+
+J2. <a href="https://www.nowpublishers.com/article/Details/DBS-088">A Systematic Review of Visualization Recommendation Systems: Goals, Strategies, Interfaces, and Evaluations</a> <br/>
+<strong>Zehua Zeng</strong>, Leilani Battle <br/>
+Foundations and Trends in Databases, 2024
 
 C5. <a href="https://ieeexplore.ieee.org/document/10290999">Too Many Cooks: Exploring How Graphical Perception Studies Influence Visualization Recommendations in Draco</a> <br/>
 <strong>Zehua Zeng</strong>, Junran Yang, Dominik Moritz, Jeffrey Heer, Leilani Battle <br/>
