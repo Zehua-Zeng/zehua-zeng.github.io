@@ -21,11 +21,22 @@ Graduate Teaching Assistant, University of Maryland, College Park <br />
 Research and Development Engineer Intern, Baidu Inc. <br/>
 <sub><sup>Jan 2015 - Jul 2015</sup></sub><br/>
 
+### Awards
+
+VGTC Visualization Dissertation Award Honorable Mention <br />
+<sub><sup>2024</sup></sub><br/>
+Best Paper Honorable Mention (Short Paper) <br />
+<sub><sup>2023 IEEE VIS</sup></sub><br/>
+Best Paper Honorable Mention (Long Paper) <br />
+<sub><sup>2021 IEEE VIS</sup></sub><br/>
+Dean's Fellowship <br />
+<sub><sup>2020</sup></sub><br/>
+
 ### Lastest News
 
 Our paper was published in Foundations and Trends in Databases.<br/>
 <sub><sup>Sept. 2024</sup></sub><br/>
-I received the 2024 VGTC Visualization Dissertation Award Honorable Mention.<br/>
+I received the <a href="https://ieeevis.org/year/2024/program/awards/awards.html">2024 VGTC Visualization Dissertation Award Honorable Mention</a>.<br/>
 <sub><sup>July 2024</sup></sub><br/>
 We received the <a href="https://ieeevis.org/year/2023/info/awards/best-paper-awards">Best Paper Honorable Mention</a> at IEEE VIS 2023. <br/>
 <sub><sup>Sept. 2023</sup></sub><br/>
@@ -84,3 +95,4 @@ Graphics Interface (GI), 2017
   - IEEE Transactions on Visualization and Computer Graphics (Journal)
   - Computational Intelligence and Neuroscience (Journal)
   - IEEE VIS (Conference)
+  - ACM CHI (Conference)
