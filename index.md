@@ -18,7 +18,7 @@ Graduate Research Assistant, University of Maryland, College Park <br />
 <sub><sup>May 2016 - Dec 2022</sup></sub><br/>
 Graduate Teaching Assistant, University of Maryland, College Park <br />
 <sub><sup>Aug 2015 - Dec 2019</sup></sub><br/>
-Research and Development Engineer Intern, Baidu Inc. <br/>
+Research and Development Engineering Intern, Baidu Inc. <br/>
 <sub><sup>Jan 2015 - Jul 2015</sup></sub><br/>
 
 ### Awards
@@ -31,29 +31,6 @@ Best Paper Honorable Mention Award <br />
 <sub><sup>2021 IEEE VIS</sup></sub><br/>
 Dean's Fellowship <br />
 <sub><sup>2020</sup></sub><br/>
-
-### Lastest News
-
-Our paper was published in Foundations and Trends in Databases.<br/>
-<sub><sup>Sept. 2024</sup></sub><br/>
-I received the <a href="https://ieeevis.org/year/2024/program/awards/awards.html">2024 VGTC Visualization Dissertation Award Honorable Mention</a>.<br/>
-<sub><sup>July 2024</sup></sub><br/>
-We received the <a href="https://ieeevis.org/year/2023/info/awards/best-paper-awards">Best Paper Honorable Mention</a> at IEEE VIS 2023. <br/>
-<sub><sup>Sept. 2023</sup></sub><br/>
-Our papers (1 full, 1 short) were fully accepted at VIS 2023. <br/>
-<sub><sup>July 2023</sup></sub><br/>
-Our article was published in ACM Interactions. <br/>
-<sub><sup>May 2023</sup></sub><br/>
-Our paper was fully accepted at CHI 2023. <br/>
-<sub><sup>Mar. 2023</sup></sub><br/>
-I started working at Intel. <br/>
-<sub><sup>Jan. 2023</sup></sub><br/>
-I passed my Ph.D. thesis defense. <br/>
-<sub><sup>Oct. 2022</sup></sub><br/>
-We received the <a href="https://ieeevis.org/year/2021/info/awards/best-paper-awards">Best Paper Honorable Mention</a> at IEEE VIS 2021. <br/>
-<sub><sup>Sept. 2021</sup></sub><br/>
-I passed my preliminary exam and now a Ph.D. candidate. <br/>
-<sub><sup>Aug. 2021</sup></sub><br/>
 
 ### Publications
 

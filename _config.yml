@@ -12,7 +12,7 @@ plugins:
 sidebar-external:
   - icon: <i class="fa-regular fa-envelope"></i>
     link: mailto:fiona.zehua.zeng@gmail.com
-  - icon: <i class="fa fa-file-pdf-o"></i>
+  - icon: <i class="fa-regular fa-file-lines"></i>
     link: files/Zehua-Zeng-Resume.pdf
   - icon: <i class="fa-solid fa-graduation-cap"></i>
     link: https://scholar.google.com/citations?user=GNJPhNEAAAAJ
