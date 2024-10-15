@@ -25,9 +25,9 @@ Research and Development Engineer Intern, Baidu Inc. <br/>
 
 VGTC Visualization Dissertation Award Honorable Mention <br />
 <sub><sup>2024</sup></sub><br/>
-Best Paper Honorable Mention (Short Paper) <br />
+Best Short Paper Honorable Mention Award<br />
 <sub><sup>2023 IEEE VIS</sup></sub><br/>
-Best Paper Honorable Mention (Long Paper) <br />
+Best Paper Honorable Mention Award <br />
 <sub><sup>2021 IEEE VIS</sup></sub><br/>
 Dean's Fellowship <br />
 <sub><sup>2020</sup></sub><br/>

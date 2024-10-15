@@ -12,8 +12,8 @@ plugins:
 sidebar-external:
   - icon: <i class="fa-regular fa-envelope"></i>
     link: mailto:fiona.zehua.zeng@gmail.com
-  - icon: <i class="fa-solid fa-envelope"></i>
-    link: mailto:zehua.zeng@intel.com
+  - icon: <i class="fa fa-file-pdf-o"></i>
+    link: files/Zehua-Zeng-Resume.pdf
   - icon: <i class="fa-solid fa-graduation-cap"></i>
     link: https://scholar.google.com/citations?user=GNJPhNEAAAAJ
   - icon: <i class="fa-brands fa-orcid"></i>
