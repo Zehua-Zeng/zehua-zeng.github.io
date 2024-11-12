@@ -34,23 +34,23 @@ Dean's Fellowship <br />
 
 ### Publications
 
-J2. <a href="https://www.nowpublishers.com/article/Details/DBS-088">A Systematic Review of Visualization Recommendation Systems: Goals, Strategies, Interfaces, and Evaluations</a> <br/>
+J4. <a href="https://www.nowpublishers.com/article/Details/DBS-088">A Systematic Review of Visualization Recommendation Systems: Goals, Strategies, Interfaces, and Evaluations</a> <br/>
 <strong>Zehua Zeng</strong>, Leilani Battle <br/>
 Foundations and Trends in Databases, 2024
 
-C5. <a href="https://ieeexplore.ieee.org/document/10290999">Too Many Cooks: Exploring How Graphical Perception Studies Influence Visualization Recommendations in Draco</a> <br/>
+J3. <a href="https://ieeexplore.ieee.org/document/10290999">Too Many Cooks: Exploring How Graphical Perception Studies Influence Visualization Recommendations in Draco</a> <br/>
 <strong>Zehua Zeng</strong>, Junran Yang, Dominik Moritz, Jeffrey Heer, Leilani Battle <br/>
 IEEE VIS, 2023
 
-C4. <a href="https://ieeexplore.ieee.org/document/10360911">Draco 2: An Extensible Platform to Model Visualization Design</a> <br/>
+C3. <a href="https://ieeexplore.ieee.org/document/10360911">Draco 2: An Extensible Platform to Model Visualization Design</a> <br/>
 Junran Yang, Péter Ferenc Gyarmati, <strong>Zehua Zeng</strong>, Dominik Moritz <br/>
 IEEE VIS 2023 -- Short Papers <a href="files/Best Paper Honorable Mention_Draco2.pdf" target="_blank">(Best Paper Honorable Mention)</a>
 
-J1. <a href="https://dl.acm.org/doi/10.1145/3588744">Using Graphical Perception in Visualization Recommendation</a> <br/>
+J2. <a href="https://dl.acm.org/doi/10.1145/3588744">Using Graphical Perception in Visualization Recommendation</a> <br/>
 <strong>Zehua Zeng</strong>, Leilani Battle <br/>
 ACM Interactions, 2023
 
-C3. <a href="https://dl.acm.org/doi/10.1145/3544548.3581349">A Review and Collation of Graphical Perception Knowledge for Visualization Recommendation</a> <br/>
+C2. <a href="https://dl.acm.org/doi/10.1145/3544548.3581349">A Review and Collation of Graphical Perception Knowledge for Visualization Recommendation</a> <br/>
 <strong>Zehua Zeng</strong>, Leilani Battle <br/>
 CHI, 2023
 
@@ -58,7 +58,7 @@ D1. <a href="http://hdl.handle.net/1903/29678">A Multi-Faceted Approach for Eval
 <strong>Zehua Zeng</strong> <br/>
 Ph.D. Dissertation, 2022
 
-C2. <a href="https://ieeexplore.ieee.org/document/9552925">An Evaluation-Focused Framework for Visualization Recommendation Algorithms</a> <br/>
+J1. <a href="https://ieeexplore.ieee.org/document/9552925">An Evaluation-Focused Framework for Visualization Recommendation Algorithms</a> <br/>
 <strong>Zehua Zeng</strong>, Phoebe Moh, Fan Du, Jane Hoffswell, Tak Yeon Lee, Sana Malik, Eunyee Koh, Leilani Battle <br/>
 IEEE VIS, 2021 <a href="files/Best Paper Honorable Mention_Vis_Rec_Evaluation.pdf" target="_blank">(Best Paper Honorable Mention)</a>
 
