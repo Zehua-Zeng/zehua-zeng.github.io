@@ -73,3 +73,4 @@ Graphics Interface (GI), 2017
   - Computational Intelligence and Neuroscience (Journal)
   - IEEE VIS (Conference)
   - ACM CHI (Conference)
+  - ACM EICS (Conference)
