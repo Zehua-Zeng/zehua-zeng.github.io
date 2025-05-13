@@ -74,3 +74,4 @@ Graphics Interface (GI), 2017
   - IEEE VIS (Conference)
   - ACM CHI (Conference)
   - ACM EICS (Conference)
+  - ACM UIST (Conference)
