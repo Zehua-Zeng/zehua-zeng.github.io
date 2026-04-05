@@ -12,13 +12,13 @@ I received my M.S. in Computer Science from the University of Maryland and my B.
 
 ### Experience
 
-Software Research Engineer/Scientist, Intel Inc. <br/>
+Software Research Engineer/Scientist, Intel Corporation, _Chandler, AZ, USA_<br/>
 <sub><sup>Jan 2023 - Present</sup></sub><br/>
-Graduate Research Assistant, University of Maryland, College Park <br />
+Graduate Research Assistant, University of Maryland, _College Park, MD, USA_<br />
 <sub><sup>May 2016 - Dec 2022</sup></sub><br/>
-Graduate Teaching Assistant, University of Maryland, College Park <br />
+Graduate Teaching Assistant, University of Maryland, _College Park, MD, USA_<br />
 <sub><sup>Aug 2015 - Dec 2019</sup></sub><br/>
-Research and Development Engineering Intern, Baidu Inc. <br/>
+Research and Development Engineering Intern, Baidu, Inc. _Beijing, China_<br/>
 <sub><sup>Jan 2015 - Jul 2015</sup></sub><br/>
 
 ### Awards
