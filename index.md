@@ -4,11 +4,13 @@ layout: left
 
 ### Bio
 
-I am a Software Research Engineer at <a href="https://www.intel.com/">Intel</a>. I design and develop visualization tools for real-time yield analysis. My work combines software development, ML techniques, and large-scale data analysis to optimize semiconductor design and manufacturing.
+I am a Software Research Engineer at <a href="https://www.intel.com/">Intel</a>, where I build full-stack applications and interactive visualization tools for large-scale semiconductor design and manufacturing. My work spans software engineering, data visualization, machine learning, and scalable data systems, with a focus on transforming complex engineering data into intuitive tools that enable real-time analysis and informed decision-making.
 
-I received my Ph.D. from the <a href="https://www.cs.umd.edu/">Department of Computer Science</a> at the <a href="https://www.umd.edu/">University of Maryland, College Park</a>, where I worked with <a href="https://homes.cs.washington.edu/~leibatt/bio.html">Prof. Leilani Battle</a> in the <a href="https://battle-data-lab.cs.umd.edu">BAttle-Data Lab</a> and <a href="https://idl.cs.washington.edu/">UW Interactive Data Lab</a>.
+I received my Ph.D. in <a href="https://www.cs.umd.edu/">Computer Science</a> at the <a href="https://www.umd.edu/">University of Maryland, College Park</a>, where I worked with <a href="https://homes.cs.washington.edu/~leibatt/bio.html">Prof. Leilani Battle</a> in the <a href="https://battle-data-lab.cs.umd.edu">BAttle-Data Lab</a> and <a href="https://idl.cs.washington.edu/">UW Interactive Data Lab</a>. My research focused on visualization recommendation systems, interactive visual analytics, and human-centered data analysis. I also received my M.S. in Computer Science from the University of Maryland and my B.S. in Telecommunication Engineering from Beijing University of Posts and Telecommunications.
 
-I received my M.S. in Computer Science from the University of Maryland and my B.S. in Telecommunication Engineering from the Beijing University of Posts and Telecommunications.
+I enjoy building software that bridges research and real-world applications, from scalable backend systems and APIs to modern web applications and interactive data experiences. Throughout my career, I've developed end-to-end solutions that combine intuitive user interfaces with robust data processing and analytics, helping engineers make faster, more informed decisions.
+
+**_I'm always interested in discussing full-time, part-time, contract, freelance, and project-based software engineering opportunities. If you think my background could be a good fit, feel free to reach out via <a href="https://www.linkedin.com/in/zehuazeng/">LinkedIn</a> or <a href="mailto:fiona.zehua.zeng@gmail.com">email</a>._**
 
 ### Experience
 
@@ -33,6 +35,10 @@ Dean's Fellowship <br />
 <sub><sup>2020</sup></sub><br/>
 
 ### Publications
+
+<a href="https://ieeexplore.ieee.org/abstract/document/11562451">Balancing Speed and Accuracy for Robust Analog-Mixed Signal Circuit Design using Closed-Loop Reinforcement Learning with Ensemble Neural Network Surrogates</a> <br/>
+Zuwei Guo, Jie Fu, Sumukh Bhanushali, <strong>Zehua Zeng</strong>, Imon Banerjee, Arindam Sanyal<br/>
+IEEE ISCAS, 2026
 
 <a href="https://www.nowpublishers.com/article/Details/DBS-088">A Systematic Review of Visualization Recommendation Systems: Goals, Strategies, Interfaces, and Evaluations</a> <br/>
 <strong>Zehua Zeng</strong>, Leilani Battle <br/>
