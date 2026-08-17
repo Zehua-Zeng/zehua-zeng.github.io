@@ -1,0 +1,176 @@
+@use "_vars" as *;
+@use "sass:color";
+
+.home {
+  h1 {
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    border-bottom: none;
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: row;
+
+    .intro {
+      flex: 1;
+      font-size: 1.1em;
+    }
+
+    a {
+      color: $brand-color;
+    }
+
+    .me {
+      margin-left: $spacing-unit;
+      margin-bottom: $spacing-unit;
+
+      font-size: 0.9em;
+      text-align: center;
+
+      picture,
+      img {
+        width: 220px;
+        height: 220px;
+        border-radius: 6px;
+      }
+
+      ul {
+        margin-top: 16px;
+      }
+    }
+  }
+
+  .button {
+    color: $brand-color;
+    padding: 6px 16px;
+    border-radius: 3px;
+    border: 1px solid color.adjust($brand-color, $lightness: 20%);
+
+    &:hover {
+      opacity: 1;
+      text-decoration: none;
+      background-color: color.adjust($brand-color, $lightness: 50%);
+    }
+  }
+
+  /* Homepage uses the centralized project grid styles in _projects.scss */
+
+  /* Responsive widths handled by _projects.scss media queries */
+
+  .projects {
+    margin-bottom: calc(#{$spacing-unit} / 2);
+  }
+
+  .featured-publications {
+    font-size: 0.95em;
+    margin-bottom: 1.5em;
+
+    .publication {
+      margin-bottom: 0.7em;
+      display: block;
+      color: $text-color;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      .award {
+        color: $yellow-color;
+
+        i {
+          color: inherit;
+        }
+      }
+
+      .fa-trophy {
+        color: $yellow-color;
+      }
+
+      .fa-clock {
+        color: $green-color;
+      }
+
+      .fa-award {
+        color: firebrick;
+      }
+
+      .authors {
+        font-weight: 300;
+      }
+    }
+  }
+
+  .news-travel {
+    display: flex;
+    flex-direction: row;
+
+    font-size: 0.9em;
+
+    & > div {
+      flex-grow: 1;
+      flex-basis: 0;
+    }
+  }
+
+  .news {
+    ul {
+      list-style: none;
+      margin-left: 0;
+
+      li {
+        margin-bottom: 1em;
+      }
+
+      time {
+        display: block;
+        color: $grey-color;
+        font-size: 0.8em;
+      }
+    }
+  }
+
+  .travel {
+    padding-left: $spacing-unit;
+
+    .date {
+      white-space: nowrap;
+      color: $grey-color;
+      padding-right: 1em;
+    }
+  }
+
+  @include media-query($on-palm) {
+    .columns {
+      flex-direction: column;
+      align-items: center;
+
+      .intro {
+        order: 2;
+      }
+      .me {
+        order: 1;
+        margin-left: 0;
+      }
+    }
+
+    .button {
+      font-size: 1.1em;
+      background-color: color.adjust($brand-color, $lightness: 57%);
+    }
+
+    /* Mobile layout for projects handled by _projects.scss */
+
+    .news-travel {
+      margin-top: $spacing-unit;
+      flex-direction: column;
+
+      .travel {
+        padding-left: 0;
+      }
+    }
+  }
+}

@@ -1,83 +1,77 @@
 ---
-layout: left
+layout: page
+title: "Home"
+class: home
 ---
 
-### Bio
+# Hi, I'm Zehua Zeng
 
-I am a Software Research Engineer at <a href="https://www.intel.com/">Intel</a>, where I build full-stack applications and interactive visualization tools for large-scale semiconductor design and manufacturing. My work spans software engineering, data visualization, machine learning, and scalable data systems, with a focus on transforming complex engineering data into intuitive tools that enable real-time analysis and informed decision-making.
+<div class="columns" markdown="1">
 
-I received my Ph.D. in <a href="https://www.cs.umd.edu/">Computer Science</a> at the <a href="https://www.umd.edu/">University of Maryland, College Park</a>, where I worked with <a href="https://homes.cs.washington.edu/~leibatt/bio.html">Prof. Leilani Battle</a> in the <a href="https://battle-data-lab.cs.umd.edu">BAttle-Data Lab</a> and <a href="https://idl.cs.washington.edu/">UW Interactive Data Lab</a>. My research focused on visualization recommendation systems, interactive visual analytics, and human-centered data analysis. I also received my M.S. in Computer Science from the University of Maryland and my B.S. in Telecommunication Engineering from Beijing University of Posts and Telecommunications.
+<div class="intro" markdown="1">
+I am a Software Research Engineer at [Intel](https://www.intel.com/), where I build full-stack applications and interactive visualization tools for large-scale semiconductor design and manufacturing. My work spans software engineering, data visualization, machine learning, and scalable data systems, with a focus on transforming complex engineering data into intuitive tools that enable real-time analysis and informed decision-making.
 
-I enjoy building software that bridges research and real-world applications, from scalable backend systems and APIs to modern web applications and interactive data experiences. Throughout my career, I've developed end-to-end solutions that combine intuitive user interfaces with robust data processing and analytics, helping engineers make faster, more informed decisions.
+I earned my Ph.D. in [Computer Science](https://www.cs.umd.edu/) from the [University of Maryland, College Park](https://www.umd.edu/), where I worked with [Prof. Leilani Battle](https://homes.cs.washington.edu/~leibatt/bio.html) in the [BAttle-Data Lab](https://battle-data-lab.cs.umd.edu) and [UW Interactive Data Lab](https://idl.cs.washington.edu/). My research focused on visualization recommendation systems, interactive visual analytics, and human-centered data analysis. My research has been recognized with multiple paper and dissertation honors at premier visualization venues. I also earned my M.S. in Computer Science from the University of Maryland and my B.S. in Telecommunication Engineering from Beijing University of Posts and Telecommunications.
 
-**_I'm always interested in discussing full-time, part-time, contract, freelance, and project-based software engineering opportunities. If you think my background could be a good fit, feel free to reach out via <a href="https://www.linkedin.com/in/zehuazeng/">LinkedIn</a> or <a href="mailto:fiona.zehua.zeng@gmail.com">email</a>._**
+You can find me on [GitHub](https://github.com/Zehua-Zeng), or [LinkedIn](https://www.linkedin.com/in/zehuazeng/).
 
-### Experience
+</div>
 
-Software Research Engineer/Scientist, Intel Corporation, _Chandler, AZ, USA_<br/>
-<sub><sup>Jan 2023 - Present</sup></sub><br/>
-Graduate Research Assistant, University of Maryland, _College Park, MD, USA_<br />
-<sub><sup>May 2016 - Dec 2022</sup></sub><br/>
-Graduate Teaching Assistant, University of Maryland, _College Park, MD, USA_<br />
-<sub><sup>Aug 2015 - Dec 2019</sup></sub><br/>
-Research and Development Engineering Intern, Baidu, Inc. _Beijing, China_<br/>
-<sub><sup>Jan 2015 - Jul 2015</sup></sub><br/>
+<div class="me" markdown="1">
+<picture>
+  <source srcset='/images/zehua-umd.avif' type='image/avif' />
+  <img
+    src='/images/zehua-umd.jpeg'
+    alt='Zehua Zeng'>
+</picture>
 
-### Awards
+{:.no-list}
 
-VGTC Visualization Dissertation Award Honorable Mention <br />
-<sub><sup>2024</sup></sub><br/>
-Best Short Paper Honorable Mention Award<br />
-<sub><sup>2023 IEEE VIS</sup></sub><br/>
-Best Paper Honorable Mention Award <br />
-<sub><sup>2021 IEEE VIS</sup></sub><br/>
-Dean's Fellowship <br />
-<sub><sup>2020</sup></sub><br/>
+- <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+</div>
 
-### Publications
+</div>
 
-<a href="https://ieeexplore.ieee.org/abstract/document/11562451">Balancing Speed and Accuracy for Robust Analog-Mixed Signal Circuit Design using Closed-Loop Reinforcement Learning with Ensemble Neural Network Surrogates</a> <br/>
-Zuwei Guo, Jie Fu, Sumukh Bhanushali, <strong>Zehua Zeng</strong>, Imon Banerjee, Arindam Sanyal<br/>
-IEEE ISCAS, 2026
+## Featured Projects
 
-<a href="https://www.nowpublishers.com/article/Details/DBS-088">A Systematic Review of Visualization Recommendation Systems: Goals, Strategies, Interfaces, and Evaluations</a> <br/>
-<strong>Zehua Zeng</strong>, Leilani Battle <br/>
-Foundations and Trends in Databases, 2024
+<div class="projects">
+  <div class="grid featured-projects">
+    {% assign sorted_projects = site.data.projects | sort: 'highlight' %}
+    {% for project in sorted_projects %}
+      {% if project.highlight %}
+        {% include project.html project=project %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
 
-<a href="https://ieeexplore.ieee.org/document/10290999">Too Many Cooks: Exploring How Graphical Perception Studies Influence Visualization Recommendations in Draco</a> <br/>
-<strong>Zehua Zeng</strong>, Junran Yang, Dominik Moritz, Jeffrey Heer, Leilani Battle <br/>
-IEEE VIS, 2023
+<a href="{{ "/projects/" | relative_url }}" class="button">
+<i class="fas fa-chevron-circle-right"></i>
+Show More Projects
+</a>
 
-<a href="https://ieeexplore.ieee.org/document/10360911">Draco 2: An Extensible Platform to Model Visualization Design</a> <br/>
-Junran Yang, Péter Ferenc Gyarmati, <strong>Zehua Zeng</strong>, Dominik Moritz <br/>
-IEEE VIS 2023 -- Short Papers <a href="files/Best Paper Honorable Mention_Draco2.pdf" target="_blank">(Best Paper Honorable Mention)</a>
+## Featured Publications
 
-<a href="https://dl.acm.org/doi/10.1145/3588744">Using Graphical Perception in Visualization Recommendation</a> <br/>
-<strong>Zehua Zeng</strong>, Leilani Battle <br/>
-ACM Interactions, 2023
-
-<a href="https://dl.acm.org/doi/10.1145/3544548.3581349">A Review and Collation of Graphical Perception Knowledge for Visualization Recommendation</a> <br/>
-<strong>Zehua Zeng</strong>, Leilani Battle <br/>
-CHI, 2023
-
-<a href="http://hdl.handle.net/1903/29678">A Multi-Faceted Approach for Evaluating Visualization Recommendation Algorithms</a> <br/>
-<strong>Zehua Zeng</strong> <br/>
-Ph.D. Dissertation, 2022
-
-<a href="https://ieeexplore.ieee.org/document/9552925">An Evaluation-Focused Framework for Visualization Recommendation Algorithms</a> <br/>
-<strong>Zehua Zeng</strong>, Phoebe Moh, Fan Du, Jane Hoffswell, Tak Yeon Lee, Sana Malik, Eunyee Koh, Leilani Battle <br/>
-IEEE VIS, 2021 <a href="files/Best Paper Honorable Mention_Vis_Rec_Evaluation.pdf" target="_blank">(Best Paper Honorable Mention)</a>
-
-<a href="https://graphicsinterface.org/proceedings/gi2017/gi2017-26/">Supporting Team-First Visual Analytics through Group Activity Representations</a> <br/>
-Sriram Karthik Badam, <strong>Zehua Zeng</strong>, Emily Wall, Alex Endert, Niklas Elmqvist <br/>
-Graphics Interface (GI), 2017
-
-### Service
-
-- Reviewer:
-  - IEEE Transactions on Visualization and Computer Graphics (Journal)
-  - Computational Intelligence and Neuroscience (Journal)
-  - IEEE VIS (Conference)
-  - ACM CHI (Conference)
-  - ACM EICS (Conference)
-  - ACM UIST (Conference)
+<div class="featured-publications">
+  {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
+  {% for pub in sorted_publications %}
+    {% if pub.highlight %}
+      {% assign pub_pdf_url = pub.pdf %}
+      {% if pub_pdf_url %}
+        {% unless pub_pdf_url contains '://' %}
+          {% assign pub_pdf_url_prefix = pub_pdf_url | slice: 0, 1 %}
+          {% unless pub_pdf_url_prefix == '/' %}
+            {% assign pub_pdf_url = '/' | append: pub_pdf_url %}
+          {% endunless %}
+          {% assign pub_pdf_url = pub_pdf_url | relative_url %}
+        {% endunless %}
+      {% endif %}
+      <a href="{{ pub_pdf_url }}" class="publication">
+        <strong>{{ pub.title }}</strong>
+        <span class="authors">{% for author in pub.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>.
+        <i>{% if pub.venue %}{{ pub.venue }}, {% endif %}{{ pub.year }}</i>.
+        {% for award in pub.awards %}<br/><span class="award"><i class="fas fa-{% if award == "Best Paper" %}trophy{% elsif award contains "Test-of-Time" %}clock{% else %}award{% endif %}" aria-hidden="true"></i> {{ award }}</span>{% endfor %}
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>

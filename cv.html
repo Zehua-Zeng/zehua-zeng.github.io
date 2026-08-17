@@ -1,0 +1,191 @@
+---
+layout: cv
+permalink: /cv/
+title: CV
+---
+
+<section class="container">
+
+<h1><a href="{{ absolute_url }}/">Zehua Zeng</a></h1>
+
+<div class="header-columns">
+  <div>
+    <p>
+      Software Research Engineer/Scientist at Intel.<br/>
+    </p>
+  </div>
+  <div>
+    <ul class="right-align">
+      <li><i class="fa-solid fa-globe muted"></i> <a href="{{ absolute_url }}/">https://zehua-zeng.github.io</a></li>
+      <li><i class="fa-solid fa-envelope muted"></i> <a href="mailto:fiona.zehua.zeng@gmail.com">fiona.zehua.zeng@gmail.com</a></li>
+      <li><i class="fa-brands fa-linkedin muted"></i> <a href="https://linkedin.com/in/zehuazeng">@zehuazeng</a></li>
+      <li><i class="fa-brands fa-github muted"></i> <a href="https://github.com/Zehua-Zeng">@Zehua-Zeng</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<h2>From Data to Decisions</h2>
+
+<p>
+I build intelligent software systems that help people make sense of complex data. My work combines full-stack software engineering, interactive visualization, machine learning, and scalable data systems to create intuitive tools that support exploration, analysis, and decision-making. I enjoy taking ideas from research prototypes to production-ready applications, bridging human-centered design with practical engineering. My work has been recognized at premier visualization venues and has contributed to both academic research and industrial products.
+</p>
+
+
+<h2>Positions</h2>
+
+{% assign filtered_positions = site.data.positions | where_exp:'item','item.hidden == null' %}
+{% for pos in filtered_positions %}
+  <div class="date-container">
+    <span class="date">{{ pos.years | replace: "-", "–" }}</span>
+    <strong class="fill">{{pos.company}}</strong>
+    <span class="right">{{ pos.location }}</span>
+  </div>
+  <div>
+    {{pos.title}}{% if pos.short_desc %}, {{ pos.short_desc | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}
+  </div>
+{% endfor %}
+
+
+<h2>Education</h2>
+
+{% for ed in site.data.education %}
+  <div class="date-container">
+    <span class="date">{{ ed.years | replace: "-", "–" }}</span>
+    <strong class="fill">{{ ed.degree }}, {{ ed.university }}</strong>
+    <span class="right">{{ ed.location }}</span>
+  </div>
+  <p>
+    {% for des in ed.description %}
+      <span>{{ des | markdownify | remove: '<p>' | remove: '</p>' }}</span>{% unless forloop.last %}<br/>{% endunless %}
+    {% endfor %}
+  </p>
+{% endfor %}
+
+
+<h2>Awards</h2>
+
+{% for award in site.data.awards %}
+  <div class="date-container">
+    <span class="date">{{ award.years | replace: "-", "–" }}</span>
+    <strong class="fill">{{ award.name }}</strong>
+    <span class="right">{{ award.sponsor }}</span>
+  </div>
+  <p class="muted">
+    {{ award.description }}
+  </p>
+{% endfor %}
+
+
+<h2>Publications</h2>
+
+{% assign sorted_pubs = site.publications | reverse %}
+
+{% assign types = "Conference|Journal|Magazine|Thesis" | split: "|" %}
+{% for type in types %}
+  {% assign counter = 1 %}
+  {% for pub in sorted_pubs %}
+    {% if pub.type[0] == type %}
+      {% assign counter = counter | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+
+  <h3 class="pub-type">
+    {{ type }}
+  </h3>
+
+  {% for pub in sorted_pubs %}
+    {% if pub.type[0] == type %}
+      {% assign pdf_url = pub.pdf %}
+      {% if pdf_url %}
+        {% unless pdf_url contains '://' %}
+          {% assign pdf_url_prefix = pdf_url | slice: 0, 1 %}
+          {% unless pdf_url_prefix == '/' %}
+            {% assign pdf_url = '/' | append: pdf_url %}
+          {% endunless %}
+          {% assign pdf_url = pdf_url | relative_url %}
+        {% endunless %}
+      {% endif %}
+      {% assign counter = counter | minus: 1 %}
+      <div class="pub">
+        <div class="ref-container">{{ type | slice: 0 }}{{ counter }}</div>
+        <strong class="fill">{% if pub.pdf %}<a href="{{ pdf_url }}">{{ pub.title }}</a>{% elsif pub.arxiv %}<a href="https://arxiv.org/pdf/{{ pub.arxiv | cgi_escape }}.pdf">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</strong>
+        <div>
+          {% for author in pub.authors %}{% include person person=author %}{% unless forloop.last %}, {% endunless %}{% endfor %}.
+          {% if pub.venue or pub.description %}<i>{% if pub.description %}{{ pub.description | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}{{ pub.venue }}</i>{% if pub.venue %},{% endif %} {% endif %}{{ pub.year }}.
+
+          {% if pub.link or pub.pdf or pub.arxiv or pub.video or pub.blog or pub.slides or pub.doi %}
+            <div class="extra-links">
+            {% if pub.pdf %}
+              <a href="{{ pdf_url }}">
+                <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+              </a>
+            {% elsif pub.arxiv %}
+              <a href="https://arxiv.org/pdf/{{ pub.arxiv | cgi_escape }}.pdf">
+                <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+              </a>
+            {% endif %}
+            {% if pub.link %}
+              <a href="{{ pub.link }}">
+                <i class="fas fa-link" aria-hidden="true"></i> Project
+              </a>
+            {% endif %}
+            {% if pub.blog %}
+              <a href="{{ pub.blog }}">
+                <i class="fas fa-newspaper" aria-hidden="true"></i> Article
+              </a>
+            {% endif %}
+            {% if pub.video %}
+              <a href="{{ pub.video }}">
+                <i class="fas fa-film" aria-hidden="true"></i> Video
+              </a>
+            {% endif %}
+            {% if pub.doi %}
+              <a href="https://www.doi2bib.org/bib/{{ pub.doi }}">
+                <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+              </a>
+            {% elsif pub.arxiv %}
+              <a href="https://arxiv2bibtex.org/?q={{ pub.arxiv | cgi_escape }}">
+                <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+              </a>
+            {% endif %}
+            </div>
+          {% endif %}
+
+          {% for award in pub.awards %}<strong class="award"><i class="fas fa-{% if award == "Best Paper" %}trophy{% elsif award contains "Test-of-Time" %}clock{% else %}award{% endif %}" aria-hidden="true"></i> {{ award }}</strong>{% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+
+
+<h2>Teaching</h2>
+
+{% for teach in site.data.teaching %}
+  <div class="date-container">
+    <span class="date">{{ teach.year }}</span>
+    <strong class="fill">{{ teach.title }}</strong>
+    <span class="right">{{ teach.location }}</span>
+  </div>
+  <p>
+    {% if teach.students %}
+      {% if teach.role %}{{ teach.role }}{% endif %}{% if teach.professor %} for {% include person person=teach.professor %}{% endif %},
+      {{ teach.students }}
+      <br/>
+    {% endif %}
+    <span class="muted">
+      {{ teach.description | markdownify | remove: '<p>' | remove: '</p>' }}
+    </span>
+  </p>
+{% endfor %}
+
+
+<h2>Service</h2>
+
+<p>
+  Reviewer for IEEE VIS (Conference), ACM CHI (Conference), ACM EICS (Conference), ACM UIST (Conference), IEEE TVCG (Journal), and Computational Intelligence and Neuroscience (Journal).
+</p>
+
+</section>

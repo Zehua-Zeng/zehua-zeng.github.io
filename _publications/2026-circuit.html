@@ -1,0 +1,39 @@
+---
+layout: publication
+year: 2026
+title: "Balancing Speed and Accuracy for Robust Analog-Mixed Signal Circuit Design using Closed-Loop Reinforcement Learning with Ensemble Neural Network Surrogates"
+authors:
+  - Zuwei Guo
+  - Jie Fu
+  - Sumukh Bhanushali
+  - Zehua Zeng
+  - Imon Banerjee
+  - Arindam Sanyal
+type:
+  - Conference
+tags:
+  - Machine Learning
+  - Circuit Design
+venue: IEEE ISCAS
+venue_location: Shanghai
+venue_url: https://2026.ieee-iscas.org/
+venue_tags:
+  - ISCAS
+pdf: https://ieeexplore.ieee.org/abstract/document/11562451
+doi: "10.1109/ISCAS66217.2026.11562451"
+---
+
+Analog/mixed-signal (AMS) circuit sizing requires exploring high-dimensional,
+constrained design spaces under expensive SPICE simulations, while maintaining
+robustness to out-of-distribution (OOD) parameter proposals. We propose a
+fidelity-aware reinforcement learning framework (RL-PPO-Online) that unifies (i)
+SPICE-in-the-loop verification and (ii) ensemble neural network guided
+regularization for surrogate-assisted optimization. Another PPO policy
+(RL-PPO-Offline) is trained using an ensemble neural network for fast
+performance prediction, while a discriminator penalizes OOD actions to stabilize
+surrogate-only updates. We further introduce RL-PPO-Blend, which schedules a
+small fraction of SPICE queries (0.2–5%) on top of RL-PPO-Offline to provide a
+tunable speed–fidelity trade-off. On challenging ADC front-end sizing tasks in
+28 nm (bootstrapped sampling switch and input buffer + switch), the proposed
+method improves pass rates over DDPG and LLM baselines, and achieves near-online
+accuracy with substantially reduced simulation cost.

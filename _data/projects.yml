@@ -1,0 +1,22 @@
+- title: Torazame
+  paper: papers/Torazame.pdf
+  image: torazame.avif
+  description: An interactive visualization tool for analyzing shooting competition videos, enabling shooters to annotate, compare, and visualize performance. It was identified by a U.S. Department of Homeland Security scouting team and selected for both virtual and in-person demos.
+  highlight: 1
+
+- title: Draco 2
+  url: https://dig.cmu.edu/draco2/intro.html
+  code: https://github.com/cmudig/draco2
+  paper: https://arxiv.org/pdf/2308.14247.pdf
+  article: https://peter.gy/projects/draco2/
+  slide: https://peter.gy/projects/draco2/slides.pdf
+  image: draco.avif
+  description: A constraint-based system for visualization recommendation. It encodes design knowledge as logical rules and uses a renderer-agnostic format, so researchers and practitioners can extend and validate chart designs in a computational way.
+  highlight: 1
+
+- title: Personal & Product Websites
+  Ghost-Optics: https://ghost-optics.com
+  MunekiSamejima: https://munekisamejima.com
+  image: react-websites.avif
+  description: A collection of websites I designed and developed for friends, using React, TypeScript, JavaScript, Material UI, including personal and product websites. Each site was built to clearly present their work, products, and information.
+  highlight: 1

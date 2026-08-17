@@ -1,14 +1,25 @@
+# Site settings
 title: Zehua Zeng
-description:
-show_downloads: false
-color-scheme: auto
+email: fiona.zehua.zeng@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://zehua-zeng.github.io/" # the base hostname & protocol for your site
+production_url: "https://zehua-zeng.github.io/"
+github_username: zehua-zeng
+# permalink removed to stop blog routes from being generated
+
+sass:
+  style: compressed
+
+collections:
+  publications:
+    output: false
+
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
-  - jemoji
 
-# You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
 sidebar-external:
   - icon: <i class="fa-regular fa-envelope"></i>
     link: mailto:fiona.zehua.zeng@gmail.com
@@ -22,11 +33,3 @@ sidebar-external:
     link: https://github.com/Zehua-Zeng
   - icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/zehuazeng/
-  - icon: <i class="fa-brands fa-youtube"></i>
-    link: https://www.youtube.com/channel/UCBwabuKjUQqMnyh-Nys-X2Q/videos
-
-# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
-# When running locally, we run into the following error —
-# GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
-# adding this avoids it
-github: [metadata]

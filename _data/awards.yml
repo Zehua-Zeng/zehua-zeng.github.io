@@ -1,0 +1,11 @@
+- name: VGTC Visualization Dissertation Award Honorable Mention
+  years: 2024
+  description: 'For my PhD dissertation "A Multi-Faceted Approach for Evaluating Visualization Recommendation Algorithms".'
+
+- name: IEEE VIS Best Short Paper Honorable Mention
+  years: 2023
+  description: 'For the paper "Draco 2: An Extensible Platform to Model Visualization Design".'
+
+- name: IEEE VIS Best Paper Honorable Mention
+  years: 2021
+  description: 'For the paper "An Evaluation-Focused Framework for Visualization Recommendation Algorithms".'
