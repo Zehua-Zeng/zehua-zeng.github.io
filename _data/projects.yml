@@ -14,11 +14,16 @@
   description: An interactive visualization tool for analyzing shooting competition videos, enabling shooters to annotate, compare, and visualize performance. It was identified by a U.S. Department of Homeland Security scouting team and selected for both virtual and in-person demos.
   highlight: 1
 
+- title: Observable Table
+  url: https://zehua-zeng.github.io/observable-table/
+  image: observable-table.avif
+  description: An interactive data table featuring visualization snapshots of dataset metrics, making it easy to explore, filter, sort, and compare records. Inspired by Observable’s Summary Table, the project demonstrates an approach to integrating visualizations into tabular data exploration.
+  highlight: 1
+
 - title: Most Challenging USPSA Division
   url: https://zehua-zeng.github.io/most-challenging-uspsa-division/
   image: most-challenging-uspsa-division.avif
   description: Inspired by New York Times and Bloomberg interactive articles, I created this data-driven story to analyze the competitiveness of USPSA divisions through interactive visualizations and data analysis.
-  highlight: 1
 
 - title: Personal & Product Websites
   Ghost-Optics: https://ghost-optics.com
