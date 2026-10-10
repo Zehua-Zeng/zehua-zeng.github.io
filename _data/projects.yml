@@ -20,6 +20,11 @@
   description: An interactive data table featuring visualization snapshots of dataset metrics, making it easy to explore, filter, sort, and compare records. Inspired by Observable’s Summary Table, the project demonstrates an approach to integrating visualizations into tabular data exploration.
   highlight: 1
 
+- title: React + DC.js Dashboard
+  url: https://zehua-zeng.github.io/react-dcjs/
+  image: react-dcjs.avif
+  description: An interactive IT service-management analytics dashboard built with React, DC.js, D3.js, and Crossfilter.js, featuring diverse visualizations, cross-filtering, and linked data exploration to uncover trends, SLA breaches, and recurring issues.
+
 - title: Most Challenging USPSA Division
   url: https://zehua-zeng.github.io/most-challenging-uspsa-division/
   image: most-challenging-uspsa-division.avif
