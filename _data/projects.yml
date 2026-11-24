@@ -14,11 +14,16 @@
   description: An interactive visualization tool for analyzing shooting competition videos, enabling shooters to annotate, compare, and visualize performance. It was identified by a U.S. Department of Homeland Security scouting team and selected for both virtual and in-person demos.
   highlight: 1
 
+- title: Electra
+  url: https://zehua-zeng.github.io/electra/
+  image: electra.avif
+  description: An LLM agent that turns the ASAP7 design rule manual into rule cards to browse and question, for engineers learning basic layout designs and exploring the open PDK. Gemini reads an index of all 201 rules, calls a lookup tool and cites each rule; values come only from the manual, examples are KLayout-checked, and an eval and test loop guards every change.
+  highlight: 1
+
 - title: Altair LLM
   url: https://zehua-zeng.github.io/altair-llm/
   image: altair-llm.avif
   description: A small LLM system that answers data questions with Vega-Altair charts. The prompt is grounded in each dataset's statistics, the model replies in structured JSON with either code or a clarifying question, a browser-side harness runs the code with Pyodide, and an eval suite of test cases measures every prompt change.
-  highlight: 1
 
 - title: Observable Table
   url: https://zehua-zeng.github.io/observable-table/
